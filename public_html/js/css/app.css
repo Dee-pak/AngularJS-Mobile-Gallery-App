@@ -1,0 +1,56 @@
+.phones{
+    list-style: none;
+}
+
+h1{
+    border-bottom: 1px solid black;
+}
+
+.phones li {
+    clear: both;
+    height: 115px;
+    padding-top: 15px;
+}
+
+.thumb{
+    float: left;
+    margin: -0.5em 1em 1.5em 0em;
+    padding-bottom: 1em;
+    height: 100px;
+    width: 100px;
+}
+
+img.phones{
+    float: left;
+    border: 1px solid black;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding: 2em;
+    height: 400px;
+    width: 400px;
+}
+
+ul.phones-thumbs{
+    margin: 0;
+    list-style: none;
+}
+ 
+ul.phones-thumbs li{
+    display: inline-block;
+    margin: 1em;
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+}
+
+ul.phones-thumbs li img{
+    height: 100px;
+    width: 100px;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.specs{
+    clear: both;
+}
